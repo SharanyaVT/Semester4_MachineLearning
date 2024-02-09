@@ -20,7 +20,7 @@ def labelencode_sharanya():
 
     myframe['Gender']=[map2[i] for i in myframe['Gender']]
 
-    #print(myframe)
+    return(myframe)
 
 print(labelencode_sharanya())
 
