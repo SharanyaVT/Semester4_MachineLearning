@@ -8,7 +8,7 @@ def labelencode_sharanya():
         "Normal": 2,
         "Overweight": 3,
         "Obesity": 4,
-        "Extreme Obestity": 5
+        "Extreme Obesity": 5
     }
 
     myframe['Index']=[map[i] for i in myframe['Index']]
